@@ -168,8 +168,6 @@ void draw(){
     //if(n%2==0)continue;/////// remaim odd test
     char s[255];
     sprintf( s,"../neg/08%d/test%d.mp",s_0, n);
-    printf("%s\n",s );
-
   //filename="./081127/test4.mp";
   if ((fp=fopen(s, "r"))==NULL) {
     printf("open file error!!%s\n",s);
